@@ -79,6 +79,9 @@ header {
         text-align: center;
         letter-spacing: 5px;
         font-size: 22px;
+        @media (max-width: 767px) {
+        font-size: 18px;
+          } 
         font-family: "Pacifico", cursive;
         color: #cf291d;
         @media (min-width: 768px) {
